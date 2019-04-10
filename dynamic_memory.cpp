@@ -26,8 +26,8 @@ int main()
     cout << "That number is: " << *mypointer << endl;
 
     // create the array inside the pointerArray
-    pointerArray = {1,2,3,4,5,6,7,8,9};
-    cout << "The pointer array: " << *pointerArray << endl;
+    cout << "The pointer array: " << pointerArray << endl;
+    cout << "The value of that array is: " << *pointerArray << endl;
     delete [] pointerArray;
 
     // Delete the pointer
