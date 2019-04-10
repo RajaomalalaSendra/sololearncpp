@@ -11,6 +11,8 @@ int main()
     cout << "int: " << sizeof(int) << endl;
     cout << "float: " << sizeof(float) << endl;
     cout << "double: " << sizeof(double) << endl;
+    double array[10];
+    cout << "the array double: " << sizeof(array) << endl;
     int var = 50;
     cout << "var: " << sizeof(var) << endl;
     int *size = new int[20];
