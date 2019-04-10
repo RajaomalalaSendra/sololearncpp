@@ -15,7 +15,11 @@ int main()
 	char *mycharpointer[9];
 	float *myfloatpointer;
 	int abc = 1;
+	int anotherabc = 1;
+	int *anotherpointer, *anotherpointerabc;
 	mypointer = &abc;
+	anotherpointer = mypointer;
+	anotherpointerabc = &anotherabc;
 
 	cout << "Using the pointer in cpp" << endl;
 	cout << "first of all we need to get your answer" << endl;
@@ -39,6 +43,11 @@ int main()
     	cout << "That is a wrong answer for all of that we expected!!" << endl;
     }
 	cout << "<mypointer>: " << mypointer << endl;
+	cout << "THe value of the mypointer is: " << *mypointer << endl;
+	cout << "<anotherpointer>: " << anotherpointer << endl;
+	cout << "THe value of the anotherpointer is: " << *anotherpointer << endl;
+	cout << "<anotherpointerabc>: " << anotherpointerabc << endl;
+	cout << "THe value of the anotherpointerabc is: " << *anotherpointerabc << endl;
 	cout << "<mydoublepointer>: " << mydoublepointer << endl;
 	cout << "<mycharpointer>: " << mycharpointer << endl;
 	cout << "<myfloatpointer>: " << myfloatpointer << endl;
