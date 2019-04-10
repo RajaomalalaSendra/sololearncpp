@@ -97,11 +97,6 @@ void account::search_the_record() {
     }
     infile.seekg(0,ios::end);
     int count = infile.tellg()/sizeof(*this);
-    cout << "******" << endl;
-    ios::end;
-    cout << "The infile.tellg: " << infile.tellg() << endl;
-    cout << "The size of this: " << sizeof(*this) << endl;
-    cout << "******" << endl;
     cout << "\n There are " << count << " record in the file";
     cout << "\n Enter Record Number to Search: ";
     cin >> n;
