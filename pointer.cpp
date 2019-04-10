@@ -14,6 +14,8 @@ int main()
 	double *mydoublepointer;
 	char *mycharpointer[9];
 	float *myfloatpointer;
+	int abc = 1;
+	mypointer = &abc;
 
 	cout << "Using the pointer in cpp" << endl;
 	cout << "first of all we need to get your answer" << endl;
