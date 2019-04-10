@@ -11,6 +11,10 @@ int main()
 	int score[2][3] = {{1,2,2},{1,3,2}};
 	int b, e, f; 
 	int *mypointer;
+	double *mydoublepointer;
+	char *mycharpointer[9];
+	float *myfloatpointer;
+
 	cout << "Using the pointer in cpp" << endl;
 	cout << "first of all we need to get your answer" << endl;
 	cout << "enter a number between 0 and 4" << endl;
@@ -33,5 +37,8 @@ int main()
     	cout << "That is a wrong answer for all of that we expected!!" << endl;
     }
 	cout << "<mypointer>: " << mypointer << endl;
+	cout << "<mydoublepointer>: " << mydoublepointer << endl;
+	cout << "<mycharpointer>: " << mycharpointer << endl;
+	cout << "<myfloatpointer>: " << myfloatpointer << endl;
 	return 0;
 }
