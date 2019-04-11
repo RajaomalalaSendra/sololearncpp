@@ -21,6 +21,7 @@ class myClass {
 int main() {
   myClass myObj("nely");
   myClass myObj2("sendra");
-  cout << myObj.getName() << myObj.getName() << endl;
+  cout << myObj.getName() << endl;
+  cout << myObj2.getName() << endl;
   return 0;
 }
