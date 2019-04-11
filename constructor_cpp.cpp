@@ -6,8 +6,9 @@ class myClass {
   private:
     string name;
   public:
-    myClass() {
+    myClass(string nm) {
       cout << "\033[35mHey I am here to dev today??" << endl;
+      setName(nm);
     }
     void setName(string x) {
       name = x;
@@ -18,7 +19,8 @@ class myClass {
 };
 
 int main() {
-  myClass myObj;
-
+  myClass myObj("nely");
+  myClass myObj2("sendra");
+  cout << myObj.getName() << myObj.getName() << endl;
   return 0;
 }
