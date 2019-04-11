@@ -17,7 +17,10 @@ int main()
 	/*
     Our code is overhere
 	*/
-	cout << "The factorial of 12 is: " << endl;
-	factorial(12);
+	int *number = new int;
+	cout <<  "Enter a number to be stored in the factorial: "<< endl;
+    cout << ":: ";
+    cin >> *number;
+	cout << "The factorial of " << *number << " is " << factorial(*number);
 	return 0;
 }
