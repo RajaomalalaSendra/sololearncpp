@@ -4,7 +4,7 @@ using namespace std;
 // The first array and function in cpp
 void printArray(int arr[], int size) {
   for(int x=0; x<size; x++) {
-    cout << "You know this: " << arr[x];
+    cout << "You know this: " << arr[x] << endl;
   }
 }
 
